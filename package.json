@@ -1,0 +1,40 @@
+{
+  "name": "fast-rimraf",
+  "version": "1.0.0",
+  "description": "A tool to delete a huge directory fast",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "rm -rf build && babel --copy-files src --out-dir build --ignore tests/",
+    "lint": "eslint src",
+    "prepublishOnly": "npm run build",
+    "test": "mocha -r babel-register --recursive src/tests --timeout 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oprogramador/fast-rimraf.git"
+  },
+  "keywords": ["rimraf","fast","delete","remove","directory","huge","large","big","unix","linux","mac","macos"],
+  "author": "oprogramador",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oprogramador/fast-rimraf/issues"
+  },
+  "homepage": "https://github.com/oprogramador/fast-rimraf#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-subset": "^1.6.0",
+    "dirty-chai": "^2.0.1",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-improved": "^4.0.13",
+    "eslint-import-resolver-babel-module": "^5.1.0",
+    "mocha": "^6.2.2",
+    "sinon": "^7.5.0",
+    "sinon-chai": "^3.3.0"
+  }
+}

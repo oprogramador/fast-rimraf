@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "transform-es2015-modules-commonjs",
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "fast-rimraf": "./src",
+        }
+      }
+    ]
+  ]
+}
