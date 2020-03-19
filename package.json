@@ -2,7 +2,7 @@
   "name": "fast-rimraf",
   "version": "1.0.1",
   "description": "A tool to delete a huge directory fast",
-  "main": "build/index.js",
+  "main": "src/rimraf.sh",
   "scripts": {
     "build": "rm -rf build && babel --copy-files src --out-dir build --ignore tests/",
     "lint": "eslint src",
