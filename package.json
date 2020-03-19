@@ -1,6 +1,6 @@
 {
   "name": "fast-rimraf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool to delete a huge directory fast",
   "main": "build/index.js",
   "scripts": {
@@ -13,7 +13,20 @@
     "type": "git",
     "url": "git+https://github.com/oprogramador/fast-rimraf.git"
   },
-  "keywords": ["rimraf","fast","delete","remove","directory","huge","large","big","unix","linux","mac","macos"],
+  "keywords": [
+    "rimraf",
+    "fast",
+    "delete",
+    "remove",
+    "directory",
+    "huge",
+    "large",
+    "big",
+    "unix",
+    "linux",
+    "mac",
+    "macos"
+  ],
   "author": "oprogramador",
   "license": "MIT",
   "bugs": {
