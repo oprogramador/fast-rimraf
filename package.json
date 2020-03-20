@@ -1,6 +1,6 @@
 {
   "name": "fast-rimraf",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A tool to delete a huge directory fast",
   "main": "src/rimraf.sh",
   "bin": {
